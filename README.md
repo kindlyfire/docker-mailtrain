@@ -13,6 +13,10 @@ You will need Docker and Docker-Compose installed, then use the following comman
 docker-compose up -d
 ```
 
+## Exposed ports
+
+The `tijlvdb/mailtrain:latest` container exposes the port `3000`.
+
 ## Environment variables
 
 * `MAILTRAIN_VERSION`: the Mailtrain version to use. Default: `1.24.0`
