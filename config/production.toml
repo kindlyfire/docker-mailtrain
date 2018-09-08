@@ -1,0 +1,10 @@
+
+[www]
+port=80
+
+[mysql]
+host="mysql"
+
+[redis]
+enabled=true
+host="redis"
