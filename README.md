@@ -13,6 +13,10 @@ You will need Docker and Docker-Compose installed, then use the following comman
 docker-compose up -d
 ```
 
+# Environment variables
+
+* `MAILTRAIN_VERSION`: the Mailtrain version to use. Default: `1.24.0`
+
 # License
 
 This project is MIT-licensed. See `LICENSE.md`.

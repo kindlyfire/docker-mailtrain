@@ -32,6 +32,8 @@ services:
       - "./config/:/opt/config"
     ports:
       - "3000:80"
+    environment:
+      # - MAILTRAIN_VERSION="1.24.0"
     links:
       - "mysql:mysql"
       - "redis:redis"
