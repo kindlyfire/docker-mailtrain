@@ -5,7 +5,7 @@ This is the repository for my take at using Mailtrain on Docker. It is split int
 
 You can configure Mailtrain in the `config/production.toml` file.
 
-# Usage
+## Usage
 
 You will need Docker and Docker-Compose installed, then use the following command to start the services:
 
@@ -13,10 +13,10 @@ You will need Docker and Docker-Compose installed, then use the following comman
 docker-compose up -d
 ```
 
-# Environment variables
+## Environment variables
 
 * `MAILTRAIN_VERSION`: the Mailtrain version to use. Default: `1.24.0`
 
-# License
+## License
 
 This project is MIT-licensed. See `LICENSE.md`.
